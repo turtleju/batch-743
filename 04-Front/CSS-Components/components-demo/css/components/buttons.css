@@ -1,0 +1,13 @@
+.btn{
+    background: rgb(255, 10, 10);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.btn-green{
+    background: rgb(0, 177, 9);
+}

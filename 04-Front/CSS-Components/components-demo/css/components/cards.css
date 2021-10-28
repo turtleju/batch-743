@@ -1,0 +1,56 @@
+.card-breakfast{
+    width: 40%;
+    height: 150px;
+    background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("../../images/breakfast.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,.3);
+}
+
+.card-product{
+    height: 100px;
+    background: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,.3);
+    /* gap: 20px; */
+}
+.card-product img{
+    width: 100px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.product-infos{
+    padding-left: 20px;
+}
+.card-product h2, .card-product p{
+    margin: 0;
+}
+
+.card-travel img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.card-travel{
+    background: white;
+    margin-top: 30px;
+}
+
+.travel-infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.travel-infos h2, .travel-infos p{
+    margin: 0;
+}
