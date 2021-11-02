@@ -13,7 +13,6 @@ console.log(home.attributes.href.value);
 
 document.querySelectorAll("img").forEach((img) => {
   img.addEventListener("click", (event) => {
-    debugger
     event.currentTarget.classList.toggle("img-circle");
   });
 });
